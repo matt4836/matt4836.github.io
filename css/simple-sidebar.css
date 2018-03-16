@@ -4,9 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
 @import url('http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
-body {
-  overflow-x: hidden;
-}
+
 
 #wrapper {
   padding-left: 0;
@@ -120,7 +118,7 @@ body {
     margin-right: 0;
   }
 
-  #sidebar-wrapper .header {
+.header {
     outline:0;
     display:block;
     position:relative;
@@ -161,19 +159,19 @@ body {
   }
 
  /* LEFT ARROW */
-#sidebar-wrapper .glyphicon  {
+.glyphicon {
      transition: .3s transform ease-in-out;
      margin-right: 3%;
  }
 /* DOWN ARROW */
-#sidebar-wrapper .glyphicon.rotated {
+.glyphicon.rotated {
   transform: rotate(90deg);
      /* float: left; */
  }
 
 
 
-#page-content-wrapper {
+/* #page-content-wrapper {
   -webkit-tap-highlight-color:transparent outline:0;
 display:block;
 position:relative;
@@ -186,10 +184,59 @@ padding-left: 2rem;
 border-image:linear-gradient(to right,#fff 0,#fff 1.42rem,#f2f2f2 .47rem,#f2f2f2 100%) 0 0 1 0;
 border-image-width:1px;
 color:#4a4a4a
-}
+} */
 
 #header {
   background: #222;
+  text-align: center;
 }
 
+
+.headerText {
+  font-size: 36px;
+  margin: 0 68px;
+  padding: .29rem;
+  color:#fff;
+}
+
+#sidebar-wrapper body {
+  overflow-x: hidden;
+  font-weight: 400;
+  font-family: -apple-system, -apple-system-font, HelveticaNeue, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a:hover {
+  color: #00f !important;
+}
+
+#carStop {
+  visibility: hidden;
+}
+
+h2 {
+  color: #999 !important;
+  font-size: 2rem !important;
+  font-variant-caps: all-petite-caps;
+}
+h3 {
+  color: #333 !important;
+  font-size: 2rem !important;
+}
+/* .mainPageFrame {
+    outline:0;
+    display:block !important;
+    position:relative;
+    border:0;
+    border-top:1px solid #f2f2f2;
+    padding-bottom: 10px;
+    padding-left: 0rem;
+    -o-border-image:linear-gradient(to right,#f2f2f2 .47rem,#f2f2f2  1.42rem,#f2f2f2 .47rem,#f2f2f2 100%) 1 1 1 1;
+    border-image:linear-gradient(to right,#f2f2f2 .47rem,#f2f2f2 .47rem,#f2f2f2 .47rem,#f2f2f2 100%) 1 1 1 1;
+    border-image-width:1 px;
+    color:#4a4a4a
+  } */
+
+.mainPageFrame .header{
+  font-weight: bolder ;
+  color: #333;
 }
