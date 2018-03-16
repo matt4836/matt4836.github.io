@@ -39,7 +39,7 @@ var stopTheCarHTML=`
       <ol>
       <li>Signal other drivers with the <a href="#">hazard lights</a>.</li>
     <li>Remove your foot from the accelerator and begin applying pressure to the brake pedal.
-    <br/><p class="note"> <i> Note:</i> Applying too much pressure to the brake pedal too quickly could cause the braking system to lock. Some cars include an ABS (anti-lock braking system). For more information, refer to your owner’s manual.</p></li>
+    <br/> <br/><p class="note"> <i> Note:</i> Applying too much pressure to the brake pedal too quickly could cause the braking system to lock. Some cars include an ABS (anti-lock braking system). For more information, refer to your owner’s manual.</p></li>
     <li>Check your surroundings.</li>
     <li>If there is an obstruction, steer the car to a safe location.</li>
     </ol>
@@ -62,7 +62,7 @@ var adjustTheMirrorsHTML=`
 <h2>Before you drive</h2>
 <h1>Adjust the mirrors</h1>
 <p>You can adjust the mirrors of your car to get a better view of the surrounding traffic. According to the Society of Automative Engineers (SAE), <a href="#">side mirrors</a> should be adjusted to slightly overlap the view provided by the <a href="#">cabin mirror</a>. Although some find this arrangement to be disorienting at first, it eliminates many blind spots.</p>
-<img src="mirrors.png"></img>
+<img width="700px" src="mirrors.png"></img>
 </div>
 
 <div class="mainPageFrame">
