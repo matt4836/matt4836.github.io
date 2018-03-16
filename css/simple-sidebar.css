@@ -120,7 +120,7 @@ body {
     margin-right: 0;
   }
 
-  #sidebar-wrapper .item {
+  #sidebar-wrapper .header {
     outline:0;
     display:block;
     position:relative;
@@ -134,34 +134,62 @@ body {
     border-image-width:1 px;
     color:#4a4a4a
   }
-  #page-content-wrapper {
-    -webkit-tap-highlight-color:transparent outline:0;
- display:block;
- position:relative;
- border:0;
- border-bottom: 1px solid #f2f2f2;
- border-left: 1px solid #f2f2f2;
- padding:.95em .7rem;
- padding-left: 2rem;
- -o-border-image:linear-gradient(to right,#fff 0,#fff 1.42rem,#f2f2f2 .47rem,#f2f2f2 100%) 0 0 1 0;
- border-image:linear-gradient(to right,#fff 0,#fff 1.42rem,#f2f2f2 .47rem,#f2f2f2 100%) 0 0 1 0;
- border-image-width:1px;
- color:#4a4a4a
- }
+  #sidebar-wrapper .sub {
+    margin-left: 2rem;
+  }
+  #sidebar-wrapper .sub2 {
+    margin-left: 2rem;
+  }
 
+  #sidebar-wrapper .sideLink {
+    outline:0;
+    display:block;
+    position:relative;
+    border:0;
+    border-bottom:1px solid #f2f2f2;
+    border-right:1px solid #f2f2f2;
+    padding:.95em .7rem;
+    padding-left: .5rem;
+    -o-border-image:linear-gradient(to right,#f2f2f2 .47rem,#f2f2f2  1.42rem,#f2f2f2 .47rem,#f2f2f2 100%) 1 1 1 1;
+    border-image:linear-gradient(to right,#f2f2f2 .47rem,#f2f2f2 .47rem,#f2f2f2 .47rem,#f2f2f2 100%) 1 1 1 1;
+    border-image-width:1 px;
+    color:#4a4a4a
+  }
 
+  #sidebar-wrapper li {
+    list-style-type: none;
+  }
 
  /* LEFT ARROW */
-.chev  {
+#sidebar-wrapper .glyphicon  {
      transition: .3s transform ease-in-out;
+     margin-right: 3%;
  }
-
 /* DOWN ARROW */
-.chev.collapsed {
+#sidebar-wrapper .glyphicon.rotated {
   transform: rotate(90deg);
      /* float: left; */
  }
 
 
+
+#page-content-wrapper {
+  -webkit-tap-highlight-color:transparent outline:0;
+display:block;
+position:relative;
+border:0;
+border-bottom: 1px solid #f2f2f2;
+border-left: 1px solid #f2f2f2;
+padding:.95em .7rem;
+padding-left: 2rem;
+-o-border-image:linear-gradient(to right,#fff 0,#fff 1.42rem,#f2f2f2 .47rem,#f2f2f2 100%) 0 0 1 0;
+border-image:linear-gradient(to right,#fff 0,#fff 1.42rem,#f2f2f2 .47rem,#f2f2f2 100%) 0 0 1 0;
+border-image-width:1px;
+color:#4a4a4a
+}
+
+#header {
+  background: #222;
+}
 
 }
