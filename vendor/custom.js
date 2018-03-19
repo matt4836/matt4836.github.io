@@ -92,7 +92,7 @@ var adjustTheMirrorsHTML=`
   <span class="glyphicon glyphicon-chevron-right"></span>Adjust the passenger’s-side mirror </a>
   <div class=collapse id="adjust-the-passenger-mirror">
   <ol>
-  <li>Sit in the driver’s seat and place your head above the <a href="#">center console</a>.</li>
+  <li>Sit in the driver’s seat and align your head with the <a href="#">center console</a>.</li>
   <li>Adjust the <a href="#">passenger’s-side mirror</a> so you can barely see the passenger’s-side of your car. Sit comfortably and check that the passenger’s-side mirror slightly overlaps the view of the cabin mirror.
     <br/><br/><p class="note"> <i> Note:</i> Many states do not require a cabin mirror. For more information, refer to your states laws.</p>
     </li>
