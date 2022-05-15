@@ -1,191 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-
-  <title>Car Help</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/simple-sidebar.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-</head>
-
-<body>
-  <div id="header">
-    <!-- <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a> -->
-    <a id="headerText"><span class="headerText">Car Help</span></a>
-  </div>
-
-  <div class="toggled" id="wrapper">
-
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-
-      <a data-toggle="collapse" href="#Car-basics" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Car basics</a>
-      <div class=collapse id=Car-basics>
-        <ul>
-          <li><a class="sideLink">Exterior overview</a></li>
-          <li><a class="sideLink">Interior overview</a></li>
-        </ul>
-      </div>
-      <a data-toggle="collapse" href="#Before-you-drive" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Before you drive</a>
-      <div class=collapse id=Before-you-drive>
-        <ul>
-          <li><a class="sideLink">Unlock the door</a></li>
-          <li><a class="sideLink">Adjust the seat</a></li>
-          <li><a class="sideLink" id="adjustTheMirrors">Adjust the mirrors</a></li>
-          <li><a class="sideLink">Fasten the seatbelt</a></li>
-        </ul>
-      </div>
-
-      <a data-toggle="collapse" href="#Turn-on-the-car" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Turn on the car</a>
-      <div class=collapse id=Turn-on-the-car>
-        <ul>
-          <li><a class="sideLink">Turn on the car</a></li>
-          <li><a class="sideLink">Check gauges</a></li>
-          <li><a data-toggle="collapse" href="#Manage-weather-conditions" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Manage weather conditions</a>
-            <div class=collapse id=Manage-weather-conditions>
-              <ul>
-                <li><a class="sideLink">Turn on headlights</a></li>
-                <li><a data-toggle="collapse" href="#Windows" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Windows</a>
-                  <div class=collapse id=Windows>
-                    <ul>
-                      <li><a class="sideLink">Open and close windows</a></li>
-                      <li><a class="sideLink">Defrost windows</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li><a class="sideLink">Set windshield wipers</a></li>
-                <li><a class="sideLink">Regulate interior temperature</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a data-toggle="collapse" href="#Media-and-navigation" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Media and navigation</a>
-            <div class=collapse id=Media-and-navigation>
-              <ul>
-                <li><a class="sideLink">Set audio playback</a></li>
-                <li><a class="sideLink">Use navigation</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <a data-toggle="collapse" href="#Shift-the-gears" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Shift the gears</a>
-      <div class=collapse id=Shift-the-gears>
-        <ul>
-          <li><a class="sideLink">Overview</a></li>
-          <li><a class="sideLink">Before you shift from park</a></li>
-          <li><a class="sideLink">Shift the gears</a></li>
-        </ul>
-      </div>
-
-      <a data-toggle="collapse" href="#Drive-forward" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Drive forward</a>
-      <div class=collapse id=Drive-forward>
-        <ul>
-          <li><a class="sideLink">Overview</a></li>
-          <li><a data-toggle="collapse" href="#Adjust-speed" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Adjust speed</a>
-            <div class=collapse id=Adjust-speed>
-              <ul>
-                <li><a class="sideLink">Accelerate</a></li>
-                <li><a class="sideLink">Brake</a></li>
-                <li><a class="sideLink">Coast</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a class="sideLink">Steering</a></li>
-          <li><a class="sideLink">Signal other drivers</a></li>
-          <li><a class="sideLink">Merge with traffic</a></li>
-          <li><a class="sideLink">Obey traffic laws</a></li>
-          <li><a id="stopTheCarLink" class="sideLink">Stop the car</a></li>
-        </ul>
-      </div>
-
-
-      <a data-toggle="collapse" href="#Drive-in-reverse" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Drive in reverse</a>
-      <div class=collapse id=Drive-in-reverse>
-        <ul>
-          <li><a class="sideLink">Overview</a></li>
-          <li><a class="sideLink">Control the car</a></li>
-          <li><a class="sideLink">Check the mirrors</a></li>
-          <li><a class="sideLink">Check the backup camera</a></li>
-        </ul>
-      </div>
-
-      <a data-toggle="collapse" href="#Park-the-car" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Park the car</a>
-      <div class=collapse id=Park-the-car>
-        <ul>
-          <li><a class="sideLink">Find a parking spot</a></li>
-          <li><a class="sideLink">Pull into a parking spot</a></li>
-        </ul>
-      </div>
-      <a data-toggle="collapse" href="#Turn-off-the-car" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Turn off the car</a>
-      <div class=collapse id=Turn-off-the-car>
-        <ul>
-          <li><a class="sideLink">Restore windows, media, and climate</a></li>
-          <li><a class="sideLink">Turn off the car</a></li>
-          <li><a class="sideLink">Remove the seatbelt</a></li>
-          <li><a class="sideLink">Exit the car</a></li>
-          <li><a class="sideLink">Lock the car</a></li>
-        </ul>
-      </div>
-      <a data-toggle="collapse" href="#Troubleshooting" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Troubleshooting</a>
-      <div class=collapse id=Troubleshooting>
-        <ul>
-          <li><a class="sideLink">If a warning light is illuminated</a></li>
-          <li><a class="sideLink">If you can’t start the car</a></li>
-          <li><a class="sideLink">If you can’t find an adjustment or control mentioned in Car Help</a></li>
-          <li><a class="sideLink">If you encounter an accident</a></li>
-        </ul>
-      </div>
-
-      <a data-toggle="collapse" href="#Drive-smarter" class="chevron-rotate header"><span class="glyphicon glyphicon-chevron-right"></span>Drive smarter</a>
-      <div class=collapse id=Drive-smarter>
-        <ul>
-          <li><a class="sideLink">Car preferences</a></li>
-          <li><a class="sideLink">Burn less fuel</a></li>
-          <li><a class="sideLink">Drive in the rain</a></li>
-          <li><a class="sideLink">Drive in the winter</a></li>
-          <li><a class="sideLink">Drive defensively</a></li>
-        </ul>
-      </div>
-
-
-
+<div>
+    <div style="float: left;">
+        <span style="font-size:2em">Thomas Matthew Schalk</span>
     </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-      <div class="container-fluid" id="mainPageContent">
-
-        <div align="center">
-          <p><img src="carIcon.png" width="200px"></p>
-          <h1>Car Help</h1>
-        </div>
-
-
-        </div>
-
-
-
-      </div>
+    <div style="float: right;padding-right:1em">
+        <ul style="list-style-type:none;padding:0;text-align:left;font-size:.7em">
+            <li>513-254-7019</li>
+            <li>matt4836@gmail.com</li>
+        </ul>
     </div>
-    <!-- /#page-content-wrapper -->
+</div>
+</br></br>
 
-  </div>
-  <!-- /#wrapper -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/custom.js"></script>
+## Experience
 
-</body>
+### Apple
+*ICT4, Instructional Products*. 2018-Present
 
-</html>
+- Maintain multiple utilities to automate day-to-day processes for the department
+- Write and maintain documentation
+
+### Jamf
+​*Instructional Designer*. 2015-2018
+
+- Created and maintained virtual machines (Linux and Windows) and imaging processes used to conduct certification courses
+- Designed and maintained Jamf Expert and Jamf Admin certification courses
+- Lead all in-person certification courses
+
+### Macprofessionals
+​*Senior Engineer*​. 2012-2015
+
+- Installed, configured, and maintained:
+	- Xsan (Fibre storage)
+	- Jamf (macOS and iOS management)
+	- CatDV (Media asset manager)
+	- Final Cut Server (Media asset manager)
+	- Deploy Studio (macOS deployment)
+	- Prestore (Tape archive)
+- Lead in-person certification courses
+
+### Macinfinity
+​*Owner*​. 2009-2012
+
+- Supported small and medium businesses
+- Owner things
+
+<div style="break-after:page"></div>
+
+
+## Education
+
+### Cincinnati State Technical College
+​*Instructor*​. 2004-2007
+
+- Lead in-person digital media and video editing classes
+
+### Cincinnati State Technical College
+*Graduate*. 2005
+
+- Audio/Video Production
+- Computer Graphics
+
+### Certifications
+<table>
+  <tr>
+    <th>Apple</th>
+    <th>Jamf</th>
+    <th>Adobe</th>
+  </tr>
+<tr>
+  <td style="vertical-align:top">
+    <ul style="list-style-type:none;padding:0;text-align:left">
+      <li>Final Cut Pro</li>
+      <li>Logic Pro</li>
+      <li>Motion</li>
+      <li>Xsan Administrator</li>
+      <li>Shake</li>
+      <li>Media Administrator</li>
+      <li>System Administrator</li>
+      <li>Directory Services</li>
+      <li>Security and mobility</li>
+      <li>Deployment</li>
+      <li>Server professional</li>
+      <li>Support professional</li>
+      <li>Final Cut Pro (Trainer)</li>
+      <li>Motion (Trainer)</li>
+      <li>Support essentials (Trainer)</li>
+  </ul>
+  </td>
+  <td style="vertical-align:top">
+    <ul style="list-style-type:none;padding:0;text-align:left">
+      <li>Expert</li> 
+      <li>Server administrator</li> 
+      <li>Administrator</li> 
+      <li>Mobile administrator</li> 
+      <li>Tech</li> 
+    </ul>
+  </td>
+  <td style="vertical-align:top">
+    <ul style="list-style-type:none;padding:0;text-align:left">
+      <li>Photoshop (Expert)</li> 
+      <li>Photoshop (Trainer)</li> 
+    </ul>
+  </td>
+</tr>
+</table>
+
+### Skills
+<table>
+  <tr>
+    <th>Development</th>
+    <th>Apps</th>
+  </tr>
+<tr>
+  <td style="vertical-align:top">
+    <ul style="list-style-type:none;padding:0;text-align:left">
+    <li>Swift</li>
+	<li>SwiftUI</li>
+	<li>Bash</li>
+	<li>PowerShell</li>
+	<li>Python</li>
+	<li>AppleScript</li>
+	<li>ExtendScript (Adobe)</li>
+	<li>MySQL</li>
+	<li>Web (HTML, Javascript, CSS, PHP, MarkDown)</li>
+    <li>Versioning (Git, SVN)</li>
+    <li>XML (Xpath, XSLT)</li>
+    <li>JSON</li>
+    <li>Plist</li>
+  </ul>
+  </td>
+  <td style="vertical-align:top">
+    <ul style="list-style-type:none;padding:0;text-align:left">
+      <li>Adobe Creative Suite</li> 
+      <li>iWork</li> 
+      <li>Final Cut Studio</li> 
+      <li>Office</li> 
+      <li>VS Code</li>
+    </ul>
+  </td>
+</tr>
+</table>
